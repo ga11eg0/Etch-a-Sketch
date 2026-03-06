@@ -1,12 +1,15 @@
 body{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Centers horizontally */
     align-items: center;
     height: 100vh;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: red;
+}
+
+#content {
+    width: 80%;
 }
 
 #title {
@@ -20,7 +23,22 @@ body{
 #board {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 80%;
     max-height: 600px;
+    margin: 0 auto; 
     background-color: white;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 30px 0px;
+    border-radius: 50% ;
+    background-color: white;
+    
 }
