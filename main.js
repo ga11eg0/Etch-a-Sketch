@@ -94,7 +94,7 @@ function pop_wind(){
             gen_grid(user_input);
             add_sqr_ev_listen()
         }
-        alert(user_input)
+        //alert(user_input)
         pop_up.remove()})
 
 
