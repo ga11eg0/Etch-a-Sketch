@@ -2,29 +2,36 @@ body{
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;
-    height: 100vh;
+    height: auto;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: red;
+    background-image: url("bg.jpg");
+     
+  
 }
 
 #content {
-    width: 80%;
+    width: 600px;
+    background-color: red;
 }
 
 #title {
-    padding: 20px;
+    padding: 10px;
+    width: 100%;
     color: #d3af37;
     font-weight: bold;
     font-size: 48px;
     text-align: center;
+    padding: 10px;
+    
 }
 
 #board {
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
-    max-height: 600px;
+    max-width: 90%;
+    aspect-ratio: 1/1;
+    max-width: 500px;
     margin: 0 auto; 
     background-color: white;
 }
@@ -37,8 +44,36 @@ body{
 .circle {
     width: 100px;
     height: 100px;
-    margin: 30px 0px;
+    margin: 20px 20px;
     border-radius: 50% ;
     background-color: white;
     
+    
+}
+
+.new_sty {
+    background-color: gray;
+}
+
+.pop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    width: 500px;
+    height: 25%;
+    background-color: white;
+    border: 3px solid black ;
+    box-sizing: border-box;
+
+}
+
+.ok_btn {
+    background-color: rgb(147, 247, 66);    
+    height: 30px;
+}
+
+.in {
+    height: 30px;
 }
